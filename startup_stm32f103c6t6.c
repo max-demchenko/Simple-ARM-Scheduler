@@ -143,7 +143,7 @@ uint32_t vector_table[] __attribute__((section(".vector_table"))) = {
     (uint32_t)&USART3_IRQHandler,          /* USART3 global interrupt                          */
     (uint32_t)&EXTI15_10_IRQHandler,       /* EXTI Line[15:10] interrupts                      */
     (uint32_t)&RTCAlarm_IRQHandler,        /* RTC Alarms through EXTI line interrupt           */
-    0,                          /* Reserved                                         */
+    0,                                     /* Reserved                                         */
     (uint32_t)&TIM8_BRK_IRQHandler,        /* TIM8 Break interrupt                             */
     (uint32_t)&TIM8_UP_IRQHandler,         /* TIM8 Update interrupt                            */
     (uint32_t)&TIM8_TRG_COM_IRQHandler,    /* TIM8 Trigger and Commutation interrupts          */
